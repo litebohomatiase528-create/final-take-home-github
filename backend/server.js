@@ -1,4 +1,3 @@
-
 import express from "express";
 import mysql from "mysql2/promise";
 import cors from "cors";
@@ -769,6 +768,6 @@ app.use((error, req, res, next) => {
 });
 
 // START SERVER
-app.listen(PORT, () => {
+app.listen(PORT, "0.0.0.0", () => {
     console.log(`Batloung Farm backend running on port ${PORT}`);
 });
