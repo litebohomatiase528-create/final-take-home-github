@@ -1,5 +1,5 @@
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
+const API_URL = import.meta.env.VITE_API_URL || "https://energetic-tenderness-production-2c6873dc.up.railway.app";
 
 export async function apiRequest(endpoint, options = {}) {
   try {
